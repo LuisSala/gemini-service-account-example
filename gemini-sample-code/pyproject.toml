@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gemini-sample-code"
+version = "0.1.0"
+description = ""
+authors = ["Luis Sala <luis@Sala.us>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-cloud-aiplatform = "^1.61.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
